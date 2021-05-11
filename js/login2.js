@@ -9,7 +9,7 @@
         var emailerr = document.getElementById("emailerror");
         var pwderr = document.getElementById("pwderror");
         //readInput(mailField,pwdField,emailerr,pwderr);   
-        alert("getErrorlabel");
+        //alert("getErrorlabel");
         return callback(mailField,pwdField,emailerr,pwderr); 
         }    
       //});
@@ -24,7 +24,7 @@
             emailerr.style.color = "Green";
             pwderr.innerHTML = "Valid";
             pwderr.style.color = "Green";
-            alert("true-both are correct");
+            //alert("true-both are correct");
             return true;
         }
         //else if (mailField == ""&&pwdField == 12345||mailField != "admin") {
@@ -33,7 +33,7 @@
             emailerr.style.color = "Red";
             pwderr.innerHTML = "Valid";
             pwderr.style.color = "Green";
-            alert("false-mail is nil");
+            //alert("false-mail is nil");
             return false;
         }
         //else if (mailField == "admin"&&pwdField == ""||pwdField != 12345) {
@@ -42,7 +42,7 @@
             emailerr.style.color = "Green";
             pwderr.innerHTML = "Invalid";
             pwderr.style.color = "Red";
-            alert("false-pwd is nil");
+            //alert("false-pwd is nil");
             return false;
         }
         //else if (mailField == ""&&pwdField == "") {
@@ -59,7 +59,7 @@
             emailerr.style.color = "Red";
             pwderr.innerHTML = "Invalid";
             pwderr.style.color = "Red";
-            alert("false-mail & pwd is nil");
+            //alert("false-mail & pwd is nil");
             return false;
             //return false;
         }
